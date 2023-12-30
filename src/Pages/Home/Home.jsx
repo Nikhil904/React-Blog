@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Home.css"
-import Header from '../../header/Header'
-import Posts from '../../Posts/Posts'
-import Sidebar from '../../Sidebar/Sidebar'
+import Header from '../../Components/header/Header'
+import Posts from '../../Components/Posts/Posts'
+import Sidebar from '../../Components/Sidebar/Sidebar'
 
 const Home = () => {
   return (

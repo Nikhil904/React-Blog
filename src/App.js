@@ -1,12 +1,13 @@
 import React from "react";
-import TopBar from "./Topbar/TopBar";
+import TopBar from "./Components/Topbar/TopBar.jsx";
 import Home from "./Pages/Home/Home";
+import Single from "./Pages/Single/Single.jsx";
 
 function App() {
   return (
     <>
     <TopBar/>
-    <Home />
+    <Single />
     </>
   );
 }
